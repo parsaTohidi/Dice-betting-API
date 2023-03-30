@@ -16,6 +16,7 @@
 6. Server is now listening on `http://localhost:4000` by default
 
 **Note:** After server started the seeder function will get called and 9 random users will be generated and added to database.
+
 **Note:** You might need to run the system in DEV mode. You can do this by running `npm run dev`.
 
 ## Queries
