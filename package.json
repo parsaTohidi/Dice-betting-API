@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "description": "dice-betting-api",
     "main": "index.ts",
-    "repository": "somewhere",
+    "repository": "https://github.com/parsaTohidi/Dice-betting-API",
     "scripts": {
         "dev": "DEBUG=url-service:* DEBUG_COLORS=1 nodemon -e ts,tsx --exec ts-node .",
         "build": "tsc --project . && tsc-alias -p tsconfig.json",
