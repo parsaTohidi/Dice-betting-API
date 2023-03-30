@@ -13,7 +13,8 @@
 3. Run `npm install` to install required packages and dependencies
 4. Run `npm run build` to compile the TypeScript code
 5. Run `npm start` to start the Express.js server
-6. Server is now listening on `http://localhost:4000` by default
+6. Server is now listening on `http://localhost:4000`
+7. By opening `http://localhost:4000`, The Graphql Appllo Server playground will get launched and you can call the queries and mutations there 
 
 **Note:** After server started the seeder function will get called and 9 random users will be generated and added to database.
 
