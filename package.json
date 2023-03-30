@@ -1,0 +1,43 @@
+{
+    "name": "dice-betting-api",
+    "version": "0.0.1",
+    "description": "dice-betting-api",
+    "main": "index.ts",
+    "repository": "somewhere",
+    "scripts": {
+        "dev": "DEBUG=url-service:* DEBUG_COLORS=1 nodemon -e ts,tsx --exec ts-node .",
+        "build": "tsc --project . && tsc-alias -p tsconfig.json",
+        "start": "DEBUG=* node ./build"
+    },
+    "_moduleAliases": {
+        "~": "./"
+    },
+    "ts-standard": {
+        "ignore": [
+            "build"
+        ],
+        "fix": true
+    },
+    "dependencies": {
+        "@apollo/server": "^4.5.0",
+        "@graphql-tools/schema": "^8.5.0",
+        "@graphql-tools/utils": "^8.8.0",
+        "apollo-server": "3.12.0",
+        "graphql": "^16.6.0",
+        "nanoid": "^3.3.4",
+        "pg": "^8.10.0",
+        "pg-hstore": "^2.3.4",
+        "sequelize": "^6.30.0",
+        "sqlite3": "^5.1.6"
+    },
+    "devDependencies": {
+        "@faker-js/faker": "^7.6.0",
+        "@types/node": "^18.15.11",
+        "@types/sequelize": "^4.28.11",
+        "nodemon": "2.0.22",
+        "ts-node": "10.9.1",
+        "ts-standard": "12.0.2",
+        "tsc-alias": "1.8.5",
+        "typescript": "5.0.2"
+    }
+}

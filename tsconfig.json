@@ -1,0 +1,46 @@
+{
+    "ts-node": {
+        "files": true
+    },
+    "compilerOptions": {
+        "rootDirs": [
+            "src"
+        ],
+        "lib": [
+            "ES2015"
+        ],
+        "target": "es6",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "types": [
+            "node"
+        ],
+        "paths": {
+            "~/*": [
+                "./*"
+            ]
+        },
+        "baseUrl": "./",
+        "outDir": "./build",
+        "allowJs": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "typeRoots": [
+            "node_modules/@types",
+            "@types"
+        ]
+    },
+    "include": [
+        "./**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "build"
+    ]
+}
