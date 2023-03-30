@@ -12,7 +12,7 @@
 2. Navigate to the repository's root directory using terminal or command prompt
 3. Run `npm install` to install required packages and dependencies
 4. Run `npm run build` to compile the TypeScript code
-5. Run `npm start` to start the Express.js server
+5. Run `npm start` to start the graphql server
 6. Server is now listening on `http://localhost:4000`
 7. By opening `http://localhost:4000`, The Graphql Appllo Server playground will get launched and you can call the queries and mutations there 
 
